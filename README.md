@@ -1,7 +1,5 @@
 #### Unity Example Application for MigratoryData Client C# API
 
-This repository contains the source code of the MigratoryData iOS example application.
-
 Open the Unity project in Unity 2022.* or later. Load the scene file located `Assets/Scenes/SampleScene.unity` and press the `Play` button to run the application.
 
 This demo application connects to the MigratoryData server running at the address `127.0.0.1:8800`. It subscribes to the subject `/server/status` and displays the messages received for that subject. You can you the PublishButton to publish a message to the subject `/server/status`.
